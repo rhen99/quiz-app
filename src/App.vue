@@ -1,9 +1,8 @@
-<template>
-  <h1>Hello World</h1>
-</template>
-
-<script>
-export default {};
+<script setup>
+import NavbarComponent from "./components/NavbarComponent.vue";
 </script>
+<template>
+  <navbar-component />
+</template>
 
 <style></style>
